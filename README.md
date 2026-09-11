@@ -9,27 +9,15 @@
 ### ข้อ 1.1 แสดงผลตามตัวอย่าง
 
 ---
+<details>
+<summary>แสดงผลตามตัวอย่าง 1</summary>
 
-Question :
+เนื้อหาที่ต้องการซ่อนไว้
 
-```python
-ให้นักศึกษาส่ง โปรแกรม HelloKMITL.c ซึ่งมีข้อมูลดังนี้
-
-#include<stdio.h>
+```c
+#include <stdio.h>
 
 int main() {
-    printf("Hello, Thailand!\n");
+    printf("Hello World");
     return 0;
 }
-
-นามสกุลของไฟล์ ต้องเป็น .c  เท่านั้น
-ถ้านามสกุลเป็น .cpp ให้ทำการ rename ก่อนส่ง
-```
-
-Output : 
-
-```python
-Hello, Thailand!
-```
-
-### ข้อ 1.2 แสดงผลตามตัวอย่าง
