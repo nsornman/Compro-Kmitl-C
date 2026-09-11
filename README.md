@@ -1,5 +1,5 @@
 # Compro semi - c By วิศวสารกึ่งตัวนำ รุ่น2
-> Computer Programming (01496702) @ KMITL >
+> Computer Programming (01496702) @ KMITL 
 
 > **หมายเหตุ** : Github นี้จะเป็นการรวมโจทย์ทั้งหมดของวิชา Computer Programming ทั้ง Sec 35 36 ดังนั้น 1 lab อาจจะมีหลายข้อเพื่อที่จะให้น้องๆได้เห็นโจทย์ที่หลายหลายเป็นตัวช่วยในการทำการบ้าน
 ## Contents
