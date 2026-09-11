@@ -1,5 +1,6 @@
-# Compro semi - c By วิศวสารกึ่งตัวนำ รุ่น2
+ Compro semi - c By วิศวสารกึ่งตัวนำ รุ่น2
 > Computer Programming (01496702) @ KMITL
+---
 # **Chapter 1: ตัวแปรแบบตัวชี้ตำแหน่ง และฟังก์ชันขั้นสูง**
 
 ## Contents
