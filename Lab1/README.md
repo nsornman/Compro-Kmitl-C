@@ -34,3 +34,32 @@ int main() {
 </details>
 
 ### 2) แสดงผลตามตัวอย่าง 2
+Task :
+```c
+ให้นักศึกษาเขียนโปรแกรมแสดงผลตามตัวอย่าง
+
+บรรทัดแรก แสดงผล Hello, Ladkrabang. 
+บรรทัดที่สอง แสดงผล Hello, KMITL. 
+บรรทัดที่สาม แสดงผล Hello, Bangkok.  
+บรรทัดที่สี่ แสดงผล Hello, Thailand. 
+```
+Testcase :
+```c
+Hello, Ladkrabang.                                                              
+Hello, KMITL.                                                                   
+Hello, Bangkok.                                                                 
+Hello, Thailand.
+```
+<details>
+<summary>Ans :</summary>
+```c
+#include <stdio.h>
+
+int main() {
+    printf("Hello, Ladkrabang.\n");
+    printf("Hello, KMITL.\n");
+    printf("Hello, Bangkok.\n");
+    printf("Hello, Thailand.\n");
+}
+```
+</details>
