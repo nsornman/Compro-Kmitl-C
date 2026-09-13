@@ -28,5 +28,5 @@ int main() {
     printf("Hello, Thailand!\n");
     return 0;
 }
-</details>```
+```
 
