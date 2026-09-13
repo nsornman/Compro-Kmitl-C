@@ -22,6 +22,7 @@ Hello, Thailand!
 ```
 <details>
 <summary>Ans :</summary>
+
 ```c
 #include<stdio.h>
 int main() {
