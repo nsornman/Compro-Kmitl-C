@@ -52,7 +52,8 @@ Hello, Thailand.
 ```
 <details>
 <summary>Ans :</summary>
-```c
+
+```c    
 #include <stdio.h>
 
 int main() {
