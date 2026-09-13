@@ -2,7 +2,7 @@
 
 
 ## Contents
-- [แสดงผลตามตัวอย่าง 1](1-แสดงผลตามตัวอย่าง-1)
+- [แสดงผลตามตัวอย่าง 1](#1-แสดงผลตามตัวอย่าง-1)
 
 ### 1) แสดงผลตามตัวอย่าง 1
 Task :
@@ -20,7 +20,8 @@ Testcase :
 ```c
 Hello, Thailand!
 ```
-Ans :
+<details>
+<summary>Ans :</summary>
 ```c
 #include<stdio.h>
 int main() {
@@ -28,3 +29,4 @@ int main() {
     return 0;
 }
 ```
+</details>
