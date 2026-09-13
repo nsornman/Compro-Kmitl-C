@@ -16,3 +16,15 @@ int main() {
 นามสกุลของไฟล์ ต้องเป็น .c  เท่านั้น
 ถ้านามสกุลเป็น .cpp ให้ทำการ rename ก่อนส่ง
 ```
+Testcase :
+```c
+Hello, Thailand!
+```
+Ans :
+```c
+#include<stdio.h>
+int main() {
+    printf("Hello, Thailand!\n");
+    return 0;
+}
+```
