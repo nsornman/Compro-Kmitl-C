@@ -2,7 +2,7 @@
 
 ## Contents
 - [ผลต่าง](#ผลต่าง)
-- [get 3 show (min+max)/max](#get-3-show-min-maxmax)
+- [get 3 show (min+max)/max](#get-3-show-minmaxmax)
 - 
 - 
 - 
