@@ -2,7 +2,10 @@
 
 ## Contents
 - [การจัดรูปแบบข้อความ](#การจัดรูปแบบข้อความ)
-- 
+- [การแสดงข้อความ มากกว่า 1 บรรทัด ไม่ใช้ \n \t](#การแสดงข้อความ-มากกว่า-1-บรรทัด-ไม่ใช้-\n-\t)
+- [การแสดงผลจำนวนเต็ม](#การแสดงผลจำนวนเต็ม)
+- [การแสดงผลทศนิยม](#การแสดงผลทศนิยม)
+- [การแสดงข้อความ %s](#การแสดงข้อความ-%s)
 ---
 ## การจัดรูปแบบข้อความ
 Task :
@@ -177,6 +180,48 @@ int main() {
     printf("%.40f\n",3.1415926535897932);
     printf("%.50f\n",3.1415926535897932);
     printf("%.60f\n",3.1415926535897932);
+    return 0;
+}
+```
+</details>
+
+## การแสดงข้อความ %s
+Task :
+```c
+เติม พารามิเตอร์ตัวแรก (first parameter) ของ printf ให้เหมาะสม เพื่อแสดงผลตามตัวอย่าง
+
+int main() {
+  printf("1234567890123456789012345678901234567890\n");
+  printf("%  s\n","I have been a good student.");
+  printf("%  s\n","I have been a good student.");
+  printf("%     s\n","I have been a good student.");
+  printf("%     s\n","I have been a good student.");
+  printf("%     s\n","I have been a good student.");
+  return 0;
+}
+```
+Testcase :
+```c
+1234567890123456789012345678901234567890                                        
+             I have been a good student.                                        
+   I have been a good student.                                                  
+    I have                                                                      
+I have been a good stu                                                          
+                  I have been a good stu
+```
+<details>
+<summary>Ans :</summary>
+
+```c
+#include <stdio.h>
+
+int main(){
+    printf("1234567890123456789012345678901234567890\n");
+    printf("%40s\n","I have been a good student.");
+    printf("%30s\n","I have been a good student.");
+    printf("%10.6s\n","I have been a good student.");
+    printf("%.22s\n","I have been a good student.");
+    printf("%40.22s\n","I have been a good student.");
     return 0;
 }
 ```
