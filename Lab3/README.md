@@ -22,7 +22,22 @@ Testcase 2 :
 Enter 1 number : 97
 The char of '97' is a
 ```
-Testcase 2 :
+Testcase 3 :
 ```c
 Hidden
 ```
+<details>
+<summary>Ans :</summary>
+
+```c
+#include <stdio.h>
+
+int main() {
+    int num;
+    printf("Enter 1 number : ");
+    scanf("%d", &num);
+    printf("The char of '%d' is %c", num, (char)num);
+    return 0;
+}
+```
+</details>
