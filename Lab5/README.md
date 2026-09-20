@@ -166,7 +166,7 @@ Testcase 3 :
 Hidden
 ```
 
-<detials>
+<details>
 <summary>Ans :</summary>
 
 ```c
@@ -225,7 +225,7 @@ Testcase 4 :
 ```c
 Hidden
 ```
-<detials>
+<details>
 <summary>Ans :</summary>
 
 ```c
@@ -246,7 +246,7 @@ int main() {
     return 0;
 }
 ```
-</detials>
+</details>
 
 ## แค่จำนวนเฉพาะ
 Task :
@@ -288,7 +288,7 @@ Testcase 5 6 7 8 :
 ```c
 Hidden
 ```
-<detials>
+<details>
 <summary>Ans :</summary>
 
 ```c
@@ -319,7 +319,7 @@ int main() {
     }
 }
 ```
-</detials>
+</details>
 
 ## แสดงผลรวมแอสกี ของข้อความ
 Task :
