@@ -356,3 +356,36 @@ Testcase 5 :
 Enter a string : The quick brown fox jumps over the lazy dog. 5
 output : 84  + 104 + 101 + 32 + 113 + 117 + 105 + 99 + 107 + 32 + 98 + 114 + 111 + 119 + 110 + 32 + 102 + 111 + 120 + 32 + 106 + 117 + 109 + 112 + 115 + 32 + 111 + 118 + 101 + 114 + 32 + 116 + 104 + 101 + 32 + 108 + 97 + 122 + 121 + 32 + 100 + 111 + 103 + 46 + 32 + 53 = 4188
 ```
+<details>
+<summary>Ans :</summary>
+
+```c
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    char text[100];
+    int count = 0, sum = 0;  
+    printf(" *** Summation of ASCII code ***\n");
+    printf("Enter a string : ");
+    scanf("%[^\n]", text);
+    int len = strlen(text);
+    printf("output : ");
+    while (text[count] != '\0'){
+        text[count] = (int)text[count];
+        sum += text[count];
+        if (count == 0){
+            printf("%d  + ", text[count]);
+        }
+        else if (count == len - 1){
+            printf("%d", text[count]);
+        }
+        else{
+            printf("%d + ", text[count]);
+        }
+        count++;
+    }
+    printf(" = %d", sum);
+}
+```
+</details>
