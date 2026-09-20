@@ -40,7 +40,6 @@ Enter start end : 10 20
 ```
 <detials>
 <summary>More testcase</summary>
-
 Testcase 5 :
 ```c
  *** Sequence summation ***
@@ -72,6 +71,7 @@ Enter start end : 3322 3311
 3311 + 3312 + 3313 + 3314 + 3315 + 3316 + 3317 + 3318 + 3319 + 3320 + 3321 + 3322 = 39,798
 ```
 </details>
+
 <details>
 <summary>Ans :</summary>
 
