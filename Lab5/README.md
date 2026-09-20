@@ -188,7 +188,7 @@ int main() {
     printf("Name length : %d", sum);
 }
 ```
-</detials>
+</details>
 
 ## to upper
 Task :
