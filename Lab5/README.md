@@ -38,8 +38,9 @@ Testcase 4 :
 Enter start end : 10 20
 10 + 11 + 12 + 13 + 14 + 15 + 16 + 17 + 18 + 19 + 20 = 165
 ```
-<detials>
+<details>
 <summary>More testcase</summary>
+
 Testcase 5 :
 ```c
  *** Sequence summation ***
